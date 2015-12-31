@@ -1,0 +1,17 @@
+name = leosat
+  type = pastebin
+    url = rjiYpE0r
+    filename = leosat
+  category = rednet networking gps
+  dependencies = none
+  version = 1.4
+  size = 4815
+
+name = rednetconsole
+  type = pastebin
+    url = CFwBqJEv
+    filename = rednetconsole
+  category = rednet networking utility
+  dependencies = none
+  version = 1.0
+  size = 894
