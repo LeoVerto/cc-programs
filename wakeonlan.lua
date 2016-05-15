@@ -29,6 +29,10 @@ function startComputers()
   end
 end
 
+if shell.getRunningProgram() == "usr/bin/wakeonlan" then
+  configPath = "etc/wakeonlan"
+end
+
 if loadConfig() then
   startComputers()
 end
